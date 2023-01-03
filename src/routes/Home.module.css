@@ -1,0 +1,42 @@
+.progs {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(17rem, 17rem));
+  grid-gap: 50px;
+  padding-top: 50px;
+}
+
+.progs_container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.user_info {
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 0;
+}
+
+.progs_classify {
+  display: flex;
+}
+
+.test_ul {
+  list-style: none;
+  padding-left: 0px;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.test {
+  background: #fff;
+  color: #666;
+  font-size: 50px;
+}
+
+@media screen and (max-width: 1090px) {
+  .progs {
+    grid-template-columns: 1fr;
+    width: 100%;
+  }
+}
